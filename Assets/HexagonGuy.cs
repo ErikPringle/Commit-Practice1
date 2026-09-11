@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class SquareGuy : MonoBehaviour
+public class HexagonGuy : MonoBehaviour
 {
-
-    public bool SquareHealth;
-    public int Strength;
+    public bool HexagonHealth;
+    public int Mana;
+    public bool Intelligence;
 
     void onMove()
     {
